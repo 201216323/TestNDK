@@ -13,8 +13,6 @@ public class JniKit {
     static {
         System.loadLibrary("Hello");
     }
-
-
     /**
      * 定义native方法
      * 调用C代码对应的方法
