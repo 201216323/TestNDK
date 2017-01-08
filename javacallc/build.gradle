@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.1"
+    buildToolsVersion "25.0.0"
 
     defaultConfig {
         applicationId "bruce.chang.javacallc"
@@ -12,6 +12,12 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        ndk{
+            moduleName "javacallc" //so文件: lib+moduleName+.so
+            abiFilters "armeabi", "armeabi-v7a", "x86" //cpu的类型
+            ldLibs "log"//Android日志中显示C函数输出
+        }
 
     }
     buildTypes {

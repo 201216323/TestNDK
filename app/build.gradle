@@ -3,12 +3,6 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
-
-//    sourceSets {
-//        main {
-//            jniLibs.srcDirs = ['libs']
-//        }
-//    }
     defaultConfig {
         applicationId "com.bruce.chang.testndk"
         minSdkVersion 15
