@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bruce.chang.ccalljava.MainActivity">
+
+    <Button
+        android:id="@+id/bt_para_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="回调一般方法(无参无返回)" />
+
+    <Button
+        android:id="@+id/bt_para_int"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="回调带int参数方法"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt_para_str"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="回调带String参数方法" />
+
+    <Button
+        android:id="@+id/bt_para_static"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="回调静态方法" />
+    <Button
+        android:id="@+id/bt_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="小应用：回调更新UI的方法" />
+</LinearLayout>
