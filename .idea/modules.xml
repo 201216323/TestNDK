@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestNDK.iml" filepath="$PROJECT_DIR$/TestNDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ccalljava/ccalljava.iml" filepath="$PROJECT_DIR$/ccalljava/ccalljava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guolu/guolu.iml" filepath="$PROJECT_DIR$/guolu/guolu.iml" />
       <module fileurl="file://$PROJECT_DIR$/javacallc/javacallc.iml" filepath="$PROJECT_DIR$/javacallc/javacallc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mtxx/mtxx.iml" filepath="$PROJECT_DIR$/mtxx/mtxx.iml" />
     </modules>
   </component>
 </project>

@@ -1,1 +1,1 @@
-include ':app', ':javacallc'
+include ':app', ':javacallc', ':ccalljava', ':mtxx', ':guolu'

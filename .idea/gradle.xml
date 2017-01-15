@@ -10,7 +10,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ccalljava" />
+            <option value="$PROJECT_DIR$/guolu" />
             <option value="$PROJECT_DIR$/javacallc" />
+            <option value="$PROJECT_DIR$/mtxx" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
