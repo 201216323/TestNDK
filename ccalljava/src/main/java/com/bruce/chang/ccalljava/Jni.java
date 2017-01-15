@@ -23,6 +23,11 @@ public class Jni {
 
     public native void callbackSayHello();
 
+    /**
+     * 让C代码调用MainActivity中的showToast方法
+     */
+    public native void callbackShowToast();
+
     public void helloFromJava() {
         Log.e("TAG", "helloFromJava()");
     }
